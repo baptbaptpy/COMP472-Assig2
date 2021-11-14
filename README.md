@@ -14,6 +14,7 @@ To draw the board, the python file uses specific character (black circle and whi
 Therefore, the encoding I/O stream needs to be "utf-8". To change the encoding, please input the two following commands :
 
 chcp 65001
+
 set PYTHONIOENCODING=utf-8
 
 Furthermore, many consoles have black background. So the white cirlce will appear black and the black circle will appear white.
