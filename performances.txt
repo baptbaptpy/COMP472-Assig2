@@ -3,7 +3,12 @@ However, I think my two heuristics are not optimized. Once we try n=8, the algor
 We can see that at the end of the scoreboard file. Both heuristic has a 50/50 win rate as they switch beginning player.
 
 Also, we can see that the maximal depth has a huge impact on the execution time, and so on the performances. 
-Indeed, when the maximal depth is low (2-3), both heuristic are fast. If its opponent has a bigger max. depth, it's more likely
+Indeed, when the maximal depth is low (2-3), both heuristic are fast. If its opponent has a bigger max. depth, it is more likely
 to win as the opponent will run out of time. 
 Therefore, there is a tradeoff to determine between the heuristic, the algorithm and the maximal depth to choose in order to
 not loose for running out of time and still be efficient.  
+
+To conclude, we saw during this assignment how to create an AI for a complex version of Tic-Tac-Toe. 
+We learnt to use different methods to have the best perforamnces. At the end, the functions I created work but are not optimized enough to be very efficient.
+Even if these two functions are not the best, we can still see the difference of performances between Minimax and Alphabeta, the impact of the size of the board, the maximal research depth,...
+Therefore, future study should be about finding the best tradeoff between the size of the board, the heuristic to use and the maximal depth.
