@@ -1,0 +1,398 @@
+
+n:5  b:4  s:4  t:1
+
+('B', 2) | ('C', 3) | ('B', 1) | ('A', 0) | 
+Player 1:
+    Controlled by AI
+    Depth of the search: 2
+    Minimax or AlphaBeta (0/1): 1
+    Euristic used: e1
+Player 2:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Euristic used: e1
+
+
+  ABCDE
+ +-----
+0|X....
+1|.X...
+2|.X...
+3|..X..
+4|.....
+
+Player w under AI control plays: x = C, y = 2
+
+  ABCDE
+ +-----
+0|X....
+1|.X...
+2|.X○..
+3|..X..
+4|.....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 83
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 83}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = B, y = 3
+
+  ABCDE
+ +-----
+0|X....
+1|.X...
+2|.X○..
+3|.●X..
+4|.....
+
+i   Evaluation time: 0.23540043830871582s
+ii  Number of state evaluated: 5760
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 5760}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = A, y = 4
+
+  ABCDE
+ +-----
+0|X....
+1|.X...
+2|.X○..
+3|.●X..
+4|○....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 33
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 33}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = A, y = 3
+
+  ABCDE
+ +-----
+0|X....
+1|.X...
+2|.X○..
+3|●●X..
+4|○....
+
+i   Evaluation time: 0.051859140396118164s
+ii  Number of state evaluated: 5268
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 5268}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = D, y = 1
+
+  ABCDE
+ +-----
+0|X....
+1|.X.○.
+2|.X○..
+3|●●X..
+4|○....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 78
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 78}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = A, y = 1
+
+  ABCDE
+ +-----
+0|X....
+1|●X.○.
+2|.X○..
+3|●●X..
+4|○....
+
+i   Evaluation time: 0.05085587501525879s
+ii  Number of state evaluated: 18998
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 18998}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = A, y = 2
+
+  ABCDE
+ +-----
+0|X....
+1|●X.○.
+2|○X○..
+3|●●X..
+4|○....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 14
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 14}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = C, y = 1
+
+  ABCDE
+ +-----
+0|X....
+1|●X●○.
+2|○X○..
+3|●●X..
+4|○....
+
+i   Evaluation time: 0.02001500129699707s
+ii  Number of state evaluated: 6840
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 6840}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = B, y = 0
+
+  ABCDE
+ +-----
+0|X○...
+1|●X●○.
+2|○X○..
+3|●●X..
+4|○....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 12
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 12}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = D, y = 2
+
+  ABCDE
+ +-----
+0|X○...
+1|●X●○.
+2|○X○●.
+3|●●X..
+4|○....
+
+i   Evaluation time: 0.01301717758178711s
+ii  Number of state evaluated: 1574
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 1574}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = E, y = 0
+
+  ABCDE
+ +-----
+0|X○..○
+1|●X●○.
+2|○X○●.
+3|●●X..
+4|○....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 64
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 64}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = D, y = 0
+
+  ABCDE
+ +-----
+0|X○.●○
+1|●X●○.
+2|○X○●.
+3|●●X..
+4|○....
+
+i   Evaluation time: 0.007026195526123047s
+ii  Number of state evaluated: 613
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 612}
+iv  Average evaluation depth: 5.99673735725938
+v   ARD: 10.0
+---------------------
+
+Player w under AI control plays: x = C, y = 0
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○.
+2|○X○●.
+3|●●X..
+4|○....
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 11
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 11}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = D, y = 4
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○.
+2|○X○●.
+3|●●X..
+4|○..●.
+
+i   Evaluation time: 0.0030100345611572266s
+ii  Number of state evaluated: 335
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 335}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = D, y = 3
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○.
+2|○X○●.
+3|●●X○.
+4|○..●.
+
+i   Evaluation time: 0.0s
+ii  Number of state evaluated: 21
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 21}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = B, y = 4
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○.
+2|○X○●.
+3|●●X○.
+4|○●.●.
+
+i   Evaluation time: 0.0009999275207519531s
+ii  Number of state evaluated: 62
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 62}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Player w under AI control plays: x = C, y = 4
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○.
+2|○X○●.
+3|●●X○.
+4|○●○●.
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 4
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 4}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = E, y = 1
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○●
+2|○X○●.
+3|●●X○.
+4|○●○●.
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 10
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 10, 5: 0, 6: 0}
+iv  Average evaluation depth: 4.0
+v   ARD: 4.0
+---------------------
+
+Player w under AI control plays: x = E, y = 4
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○●
+2|○X○●.
+3|●●X○.
+4|○●○●○
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 5
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 5}
+iv  Average evaluation depth: 2.0
+v   ARD: 6.0
+---------------------
+
+Player b under AI control plays: x = E, y = 2
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○●
+2|○X○●●
+3|●●X○.
+4|○●○●○
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 2
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 2, 3: 0, 4: 0, 5: 0, 6: 0}
+iv  Average evaluation depth: 2.0
+v   ARD: 2.0
+---------------------
+
+Player w under AI control plays: x = E, y = 3
+
+  ABCDE
+ +-----
+0|X○○●○
+1|●X●○●
+2|○X○●●
+3|●●X○○
+4|○●○●○
+
+i   Evaluation time: 0.0s
+ii  Number of state evaluated: 1
+iii Number of state evaluated for each depth: {0: 0, 1: 1, 2: 0}
+iv  Average evaluation depth: 1.0
+v   ARD: 5.0
+---------------------
+
+It's a tie!
+
+For heuristic 1: 
+    i   Average evaluation time: 0.0s
+    ii  Number of state evaluate by the heuristic: 326
+    iii Average of the per-move average depth: {0: 0.0, 1: 0.09090909090909091, 2: 29.545454545454547}
+    iv  Total number of states evaluated: {0: 0, 1: 1, 2: 325}
+    v   Average ARD: 5.909090909090909
+    vi  Total number of moves in the game: 11
+
+For heuristic 2: 
+    i   Average evaluation time: 0.03821837902069092s
+    ii  Number of state evaluate by the heuristic: 39462
+    iii Average of the per-move average depth: {0: 0.0, 1: 0.0, 2: 0.2, 3: 0.0, 4: 1.1, 5: 0.0, 6: 3944.9}
+    iv  Total number of states evaluated: {0: 0, 1: 0, 2: 2, 3: 0, 4: 11, 5: 0, 6: 39449}
+    v   Average ARD: 5.8
+    vi  Total number of moves in the game: 10

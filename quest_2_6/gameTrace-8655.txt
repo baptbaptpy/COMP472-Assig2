@@ -1,0 +1,48 @@
+
+n:8  b:6  s:5  t:5
+
+('C', 3) | ('A', 0) | ('A', 7) | ('G', 6) | ('F', 7) | ('B', 5) | 
+Player 1:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Euristic used: e1
+Player 2:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Euristic used: e1
+
+
+  ABCDEFGH
+ +--------
+0|X.......
+1|........
+2|........
+3|..X.....
+4|........
+5|.X......
+6|......X.
+7|X....X..
+
+Player w under AI control plays: x = D, y = 3
+
+  ABCDEFGH
+ +--------
+0|X.......
+1|........
+2|........
+3|..X○....
+4|........
+5|.X......
+6|......X.
+7|X....X..
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 5229744
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 5229744}
+iv  Average evaluation depth: 6.0
+v   ARD: 6.0
+---------------------
+
+Heuristic is too slow, player w wins !

@@ -1,0 +1,287 @@
+n:5  b:3  s:4  t:15
+Player 1:
+    Depth of the search: 4
+    Minimax or AlphaBeta (0/1): 0
+    Heuristic used: e2
+Player 2:
+    Depth of the search: 4
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+
+2x10=20 games
+
+Total wins for heuristic e1: 20 (100.0%)
+Total wins for heuristic e2: 0 (0.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.04s
+ii  Total heuristic evaluations: 82470
+iii Evaluation by depth: {0: 0, 1: 0, 2: 140, 3: 0, 4: 82330}
+iv  Average evaluation depth: 3.9966048259973324
+v   Average recursion path: 15.142857142857139
+vi  Average moves per game: 4.0
+
+For Heuristic 2: 
+i   Average evaluation time: 3.51s
+ii  Total heuristic evaluations: 7506160
+iii Evaluation by depth: {0: 0, 1: 20, 2: 0, 3: 4540, 4: 7501600}
+iv  Average evaluation depth: 3.9993871700043697
+v   Average recursion path: 17.09285714285715
+vi  Average moves per game: 4.5
+
+
+n:4  b:4  s:3  t:5
+Player 1:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 0
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 0
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 5 (50.0%)
+Total wins for heuristic e2: 5 (50.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 3170880
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 25920, 6: 3144960}
+iv  Average evaluation depth: 5.991825613079019
+v   Average recursion path: 0.0
+vi  Average moves per game: 0.5
+
+For Heuristic 2: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 3170880
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 25920, 6: 3144960}
+iv  Average evaluation depth: 5.991825613079019
+v   Average recursion path: 0.0
+vi  Average moves per game: 0.5
+
+
+
+n:4  b:4  s:3  t:1
+Player 1:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 5 (50.0%)
+Total wins for heuristic e2: 5 (50.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.02s
+ii  Total heuristic evaluations: 34060
+iii Evaluation by depth: {0: 0, 1: 5, 2: 35, 3: 75, 4: 475, 5: 2225, 6: 31245}
+iv  Average evaluation depth: 5.895331767469172
+v   Average recursion path: 16.939656161213367
+vi  Average moves per game: 3.5
+
+For Heuristic 2: 
+i   Average evaluation time: 0.08s
+ii  Total heuristic evaluations: 33595
+iii Evaluation by depth: {0: 0, 1: 5, 2: 40, 3: 50, 4: 460, 5: 2505, 6: 30535}
+iv  Average evaluation depth: 5.888078583122488
+v   Average recursion path: 14.185470810290417
+vi  Average moves per game: 3.5
+
+
+n:5  b:4  s:4  t:1
+Player 1:
+    Depth of the search: 2
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 10 (100.0%)
+Total wins for heuristic e2: 0 (0.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.01s
+ii  Total heuristic evaluations: 1570
+iii Evaluation by depth: {0: 0, 1: 0, 2: 1570}
+iv  Average evaluation depth: 2.0
+v   Average recursion path: 36.0
+vi  Average moves per game: 6.0
+
+For Heuristic 2: 
+i   Average evaluation time: 0.73s
+ii  Total heuristic evaluations: 4967780
+iii Evaluation by depth: {0: 0, 1: 10, 2: 80, 3: 735, 4: 7500, 5: 79145, 6: 4880310}
+iv  Average evaluation depth: 5.980530538791975
+v   Average recursion path: 29.418040041431404
+vi  Average moves per game: 6.5
+
+
+n:5  b:4  s:4  t:5
+Player 1:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 10 (100.0%)
+Total wins for heuristic e2: 0 (0.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.47s
+ii  Total heuristic evaluations: 773545
+iii Evaluation by depth: {0: 0, 1: 0, 2: 60, 3: 265, 4: 1285, 5: 8570, 6: 763365}
+iv  Average evaluation depth: 5.984260773452094
+v   Average recursion path: 35.25032944630265
+vi  Average moves per game: 7.5
+
+For Heuristic 2: 
+i   Average evaluation time: 2.08s
+ii  Total heuristic evaluations: 2625185
+iii Evaluation by depth: {0: 0, 1: 10, 2: 20, 3: 365, 4: 1865, 5: 30130, 6: 2592795}
+iv  Average evaluation depth: 5.98663522761253
+v   Average recursion path: 44.72420860314805
+vi  Average moves per game: 8.0
+
+
+n:8  b:5  s:5  t:1
+Player 1:
+    Depth of the search: 2
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 10 (100.0%)
+Total wins for heuristic e2: 0 (0.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 2060
+iii Evaluation by depth: {0: 0, 1: 0, 2: 2060}
+iv  Average evaluation depth: 2.0
+v   Average recursion path: 3.0
+vi  Average moves per game: 0.5
+
+For Heuristic 2: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 728436
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 728436}
+iv  Average evaluation depth: 6.0
+v   Average recursion path: 0.0
+vi  Average moves per game: 1.0
+
+
+n:8  b:5  s:5  t:5
+Player 1:
+    Depth of the search: 2
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 10 (100.0%)
+Total wins for heuristic e2: 0 (0.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 2060
+iii Evaluation by depth: {0: 0, 1: 0, 2: 2060}
+iv  Average evaluation depth: 2.0
+v   Average recursion path: 3.0
+vi  Average moves per game: 0.5
+
+For Heuristic 2: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 3521943
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 3521943}
+iv  Average evaluation depth: 6.0
+v   Average recursion path: 0.0
+vi  Average moves per game: 1.0
+
+
+n:8  b:6  s:5  t:1
+Player 1:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 5 (50.0%)
+Total wins for heuristic e2: 5 (50.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 842880
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 842880}
+iv  Average evaluation depth: 6.0
+v   Average recursion path: 0.0
+vi  Average moves per game: 0.5
+
+For Heuristic 2: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 637480
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 637480}
+iv  Average evaluation depth: 6.0
+v   Average recursion path: 0.0
+vi  Average moves per game: 0.5
+
+
+n:8  b:6  s:5  t:5
+Player 1:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e1
+Player 2:
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Heuristic used: e2
+
+2x5=10 games
+
+Total wins for heuristic e1: 5 (50.0%)
+Total wins for heuristic e2: 5 (50.0%)
+
+For Heuristic 1: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 2759994
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 2759994}
+iv  Average evaluation depth: 6.0
+v   Average recursion path: 0.0
+vi  Average moves per game: 0.5
+
+For Heuristic 2: 
+i   Average evaluation time: 0.0s
+ii  Total heuristic evaluations: 1414205
+iii Evaluation by depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 1414205}
+iv  Average evaluation depth: 6.0
+v   Average recursion path: 0.0
+vi  Average moves per game: 0.5

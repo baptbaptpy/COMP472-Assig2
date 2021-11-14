@@ -1,0 +1,9 @@
+We can see that the alphabeta outperforms the minimax algorithm. Indeed, its executation time is much less than minimax's.
+However, I think my two heuristics are not optimized. Once we try n=8, the algorithm runs out of time and stops.
+We can see that at the end of the scoreboard file. Both heuristic has a 50/50 win rate as they switch beginning player.
+
+Also, we can see that the maximal depth has a huge impact on the execution time, and so on the performances. 
+Indeed, when the maximal depth is low (2-3), both heuristic are fast. If its opponent has a bigger max. depth, it's more likely
+to win as the opponent will run out of time. 
+Therefore, there is a tradeoff to determine between the heuristic, the algorithm and the maximal depth to choose in order to
+not loose for running out of time and still be efficient.  

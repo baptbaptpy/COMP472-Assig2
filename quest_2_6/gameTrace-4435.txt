@@ -1,0 +1,24 @@
+
+n:4  b:4  s:3  t:5
+
+('A', 0) | ('A', 3) | ('D', 0) | ('D', 3) | 
+Player 1:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 0
+    Euristic used: e1
+Player 2:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 0
+    Euristic used: e1
+
+
+  ABCD
+ +----
+0|X..X
+1|....
+2|....
+3|X..X
+
+Heuristic is too slow, player b wins !

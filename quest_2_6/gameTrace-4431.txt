@@ -1,0 +1,152 @@
+
+n:4  b:4  s:3  t:1
+
+('A', 0) | ('A', 3) | ('D', 0) | ('D', 3) | 
+Player 1:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Euristic used: e1
+Player 2:
+    Controlled by AI
+    Depth of the search: 6
+    Minimax or AlphaBeta (0/1): 1
+    Euristic used: e1
+
+
+  ABCD
+ +----
+0|X..X
+1|....
+2|....
+3|X..X
+
+Player w under AI control plays: x = B, y = 1
+
+  ABCD
+ +----
+0|X..X
+1|.○..
+2|....
+3|X..X
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 4878
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 159, 6: 4719}
+iv  Average evaluation depth: 5.96740467404674
+v   ARD: 5.037735849056604
+---------------------
+
+Player b under AI control plays: x = B, y = 0
+
+  ABCD
+ +----
+0|X●.X
+1|.○..
+2|....
+3|X..X
+
+i   Evaluation time: 0.23138189315795898s
+ii  Number of state evaluated: 1376
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 0, 4: 23, 5: 152, 6: 1201}
+iv  Average evaluation depth: 5.8561046511627906
+v   ARD: 4.219107551487414
+---------------------
+
+Player w under AI control plays: x = A, y = 2
+
+  ABCD
+ +----
+0|X●.X
+1|.○..
+2|○...
+3|X..X
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 597
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 2, 4: 6, 5: 94, 6: 495}
+iv  Average evaluation depth: 5.812395309882747
+v   ARD: 5.421985815602836
+---------------------
+
+Player b under AI control plays: x = B, y = 2
+
+  ABCD
+ +----
+0|X●.X
+1|.○..
+2|○●..
+3|X..X
+
+i   Evaluation time: 0.019948959350585938s
+ii  Number of state evaluated: 351
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 2, 3: 5, 4: 55, 5: 65, 6: 224}
+iv  Average evaluation depth: 5.435897435897436
+v   ARD: 3.9092587412587414
+---------------------
+
+Player w under AI control plays: x = A, y = 1
+
+  ABCD
+ +----
+0|X●.X
+1|○○..
+2|○●..
+3|X..X
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 30
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 0, 3: 5, 4: 2, 5: 15, 6: 8}
+iv  Average evaluation depth: 4.866666666666666
+v   ARD: 4.34
+---------------------
+
+Player b under AI control plays: x = B, y = 3
+
+  ABCD
+ +----
+0|X●.X
+1|○○..
+2|○●..
+3|X●.X
+
+i   Evaluation time: 0.008008956909179688s
+ii  Number of state evaluated: 34
+iii Number of state evaluated for each depth: {0: 0, 1: 0, 2: 5, 3: 2, 4: 15, 5: 8, 6: 4}
+iv  Average evaluation depth: 4.117647058823529
+v   ARD: 3.038333333333333
+---------------------
+
+Player w under AI control plays: x = C, y = 0
+
+  ABCD
+ +----
+0|X●○X
+1|○○..
+2|○●..
+3|X●.X
+
+i   Evaluation time: 0s
+ii  Number of state evaluated: 1
+iii Number of state evaluated for each depth: {0: 0, 1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+iv  Average evaluation depth: 1.0
+v   ARD: 1.0
+---------------------
+
+The winner is Player 1 (white)!
+
+For heuristic 1: 
+    i   Average evaluation time: 0.0s
+    ii  Number of state evaluate by the heuristic: 5506
+    iii Average of the per-move average depth: {0: 0.0, 1: 0.25, 2: 0.0, 3: 1.75, 4: 2.0, 5: 67.0, 6: 1305.5}
+    iv  Total number of states evaluated: {0: 0, 1: 1, 2: 0, 3: 7, 4: 8, 5: 268, 6: 5222}
+    v   Average ARD: 3.94993041616486
+    vi  Total number of moves in the game: 4
+
+For heuristic 2: 
+    i   Average evaluation time: 0.08644660313924153s
+    ii  Number of state evaluate by the heuristic: 1761
+    iii Average of the per-move average depth: {0: 0.0, 1: 0.0, 2: 2.3333333333333335, 3: 2.3333333333333335, 4: 31.0, 5: 75.0, 6: 476.3333333333333}
+    iv  Total number of states evaluated: {0: 0, 1: 0, 2: 7, 3: 7, 4: 93, 5: 225, 6: 1429}
+    v   Average ARD: 3.722233208693163
+    vi  Total number of moves in the game: 3
