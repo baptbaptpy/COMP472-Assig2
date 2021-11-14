@@ -5,7 +5,7 @@ Created on Sun Nov 14 05:06:01 2021
 @author: BaptLemaire
 lemaire.baptiste@outlook.fr
 
-Subject :
+Subject : scoreboard for Line'em up AI
 """
 
 from li import Game
