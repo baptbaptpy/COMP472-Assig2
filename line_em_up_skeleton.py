@@ -775,7 +775,6 @@ class Game:
 def main(): 
     g = Game(recommend=True)
     g.play()
-    #g.play(algo=Game.MINIMAX,player_1=Game.AI,player_2=Game.HUMAN)
     g.save()
 
 if __name__ == "__main__":
