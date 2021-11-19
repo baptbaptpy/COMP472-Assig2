@@ -8,7 +8,7 @@ lemaire.baptiste@outlook.fr
 Subject : scoreboard for Line'em up AI
 """
 
-from li import Game
+from line_em_up_skeleton import Game
 
 
 r = 5
